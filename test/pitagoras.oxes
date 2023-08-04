@@ -1,0 +1,5 @@
+PRINCIPAL{
+    var cat_op = 3;
+    var cat_ad = 4;
+    Imprimir("Cateto Opuesto:\t\t"+cat_op+"\nCateto Adyacente:\t"+cat_ad+"\nT. de Pitagoras:\t"+(cat_op^2 + cat_ad^2)^(1/2));
+}

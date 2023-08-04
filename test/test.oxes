@@ -1,0 +1,12 @@
+PRINCIPAL  {
+    var a = 0;
+    var ant = 1;
+    var cont = 0;
+    MIENTRAS(cont<15){
+        cont = cont + 1;
+        var aux = a+ant;
+        Imprimir(a);
+        a = ant;
+        ant = aux;
+    }
+ }
